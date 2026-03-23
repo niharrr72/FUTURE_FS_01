@@ -1,8 +1,6 @@
 # Nihar Ranjan Routray | Professional Portfolio
 
-> A sleek, interactive, and fully responsive digital portfolio built for modern web performance and visual excellence.
-
-![Portfolio Preview](./assets/images/hero-preview.png) *(Note: Replace with an actual screenshot of your portfolio after uploading)*
+![Portfolio Preview](./assets/images/hero-preview.png)
 
 This repository contains the source code for my professional portfolio website, showcasing my full-stack web development skills, projects, and experiences. It is designed to be highly interactive, performant, and SEO-friendly.
 
@@ -30,8 +28,8 @@ To run this project locally on your machine and explore the dashboard, follow th
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/niharrr72/nihar-portfolio.git
-   cd nihar-portfolio
+   git clone https://github.com/niharrr72/FUTURE_FS_01.git
+   cd FUTURE_FS_01
    ```
 
 2. **Serve the files:**
@@ -56,7 +54,7 @@ This portfolio is ready natively for GitHub Pages deployment.
    - Navigate to the **Pages** section on the left sidebar.
    - Under **Build and deployment -> Source**, select **Deploy from a branch**.
    - Under **Branch**, select `main` (or `master`) and `/ (root)` folder, then click **Save**.
-3. **Live URL:** After a minute or two, your website will be live at `https://niharrr72.github.io/your-repo-name/`.
+3. **Live URL:** After a minute or two, your website will be live at `https://niharrr72.github.io/FUTURE_FS_01/`.
 
 ## 📬 Contact
 
