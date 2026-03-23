@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>Nihar Ranjan Routray | Full Stack Developer</title>
+  <meta name="title" content="Nihar Ranjan Routray | Full Stack Developer" />
+  <meta name="description" content="Portfolio of Nihar Ranjan Routray — Full Stack Web Developer & Computer Science student at SRMIST. Builder of WealthWise, Health-Ease, and Anime Tracker." />
+  <meta name="keywords" content="Nihar Routray, Full Stack Developer, React, Node.js, MongoDB, Portfolio, SRMIST, Web Development" />
+  <meta name="author" content="Nihar Ranjan Routray" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nihar Ranjan Routray | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer & CS student building real-world web applications." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== UNDERWATER BACKGROUND ===== -->
+  <div class="underwater-bg">
+    <div class="sunrays"></div>
+    <div class="bubbles-container" id="bubbles-container"></div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">NR<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi there, I'm</p>
+        <h1 class="hero-name">Nihar Ranjan<br /><span class="gradient-text">Routray</span></h1>
+        <div class="hero-typewriter">
+          <span>I build </span>
+          <span class="typewriter-text" id="typewriter"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-desc">
+          Full Stack Developer & CS student at SRMIST, passionate about
+          building elegant, real-world web applications that solve actual problems.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/niharrr72" target="_blank" aria-label="GitHub" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nihar-routray-6b9b72337" target="_blank" aria-label="LinkedIn" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-card">
+          <img src="assets/images/profile-hero.jpg" alt="Nihar Ranjan Routray" class="hero-photo" id="profile-img" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <div class="scroll-wheel"></div>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get to Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-img-wrapper">
+            <img src="assets/images/profile-about.jpg" alt="Nihar Ranjan Routray" class="about-photo" />
+            <div class="about-img-badge">
+              <span class="badge-icon">💻</span>
+              <span>Full Stack Dev</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info-col">
+          <h3 class="about-subtitle">A developer who <span class="gradient-text">ships real products.</span></h3>
+          <p class="about-text">
+            I'm a Computer Science student at <strong>SRMIST, Chennai</strong>, specializing in full-stack web development. I love designing engaging UIs and building robust server infrastructure.
+          </p>
+          <p class="about-text">
+            From comprehensive healthcare platforms and AI finance trackers to serverless automation engines — I build real software that solves actual problems.
+          </p>
+          <p class="about-text">
+            Currently an intern at <strong>Future Interns</strong>, I'm constantly taking on real-world challenges, exploring anime culture, and leveling up my craft.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-university"></i>
+              <div>
+                <span class="detail-label">University</span>
+                <span class="detail-value">SRMIST, Chennai</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="detail-label">Email</span>
+                <span class="detail-value">niharroutray72@gmail.com</span>
+                <span class="detail-value">nr8280@srmist.edu.in</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">India</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <span class="detail-label">Status</span>
+                <span class="detail-value">Open to Opportunities</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-cta">
+            <a href="https://github.com/niharrr72" target="_blank" class="btn btn-primary">
+              <i class="fab fa-github"></i> GitHub Profile
+            </a>
+            <a href="https://www.linkedin.com/in/nihar-routray-6b9b72337" target="_blank" class="btn btn-outline">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-number" data-target="3">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Technologies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="1">0</div>
+          <div class="stat-label">Internship</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">% Passion</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Work With</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Tech Stack</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+          <h3 class="skill-category-title">Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag">⚡ Vite</span>
+            <span class="skill-tag">🎨 Tailwind CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+          <h3 class="skill-category-title">Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+            <span class="skill-tag">🚂 Express.js</span>
+            <span class="skill-tag">🔑 JWT Auth</span>
+            <span class="skill-tag">🔗 REST APIs</span>
+            <span class="skill-tag">📤 Cloudinary</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+          <h3 class="skill-category-title">Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">🍃 MongoDB</span>
+            <span class="skill-tag">🐬 MySQL</span>
+            <span class="skill-tag">🔮 Mongoose</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+          <h3 class="skill-category-title">Tools & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-tag">⚙️ GitHub Actions</span>
+            <span class="skill-tag">📦 npm</span>
+            <span class="skill-tag">🐧 Linux</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Real-world roles and community initiatives I've been a part of.</p>
+      </div>
+
+      <div class="experience-grid">
+        
+        <!-- Future Interns -->
+        <article class="project-card" data-aos="fade-up">
+          <div class="project-image-header experience-header">
+            <div class="experience-cover-bg logo-bg">
+              <img src="./assets/images/future-interns-logo.jpg" alt="Future Interns Logo">
+            </div>
+            <div class="project-overlay">
+              <div class="project-links"></div>
+              <div class="project-titles">
+                <h3 class="project-title">Full Stack Web Developer</h3>
+                <p class="project-subtitle">Future Interns</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="experience-timeline">
+              <i class="far fa-calendar-alt"></i> March 2026 - April 2026 &nbsp;•&nbsp; <i class="fas fa-map-marker-alt"></i> Remote
+            </div>
+            <p class="project-description">
+              Engaging in end-to-end web application development, focusing on building responsive user interfaces and integrating backend services.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">UI/UX</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Volunteer Instructor -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-header experience-header">
+            <div class="experience-cover-bg photo-bg">
+              <img src="./assets/images/volunteer-experience.png" alt="Volunteer Instructor">
+            </div>
+            <div class="project-overlay">
+              <div class="project-links"></div>
+              <div class="project-titles">
+                <h3 class="project-title">Volunteer Instructor</h3>
+                <p class="project-subtitle">Sri Shirdi Sai Deepa Charitable Trust</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="experience-timeline">
+              <i class="far fa-calendar-alt"></i> Jun 2025 - Jun 2025 &nbsp;•&nbsp; <i class="fas fa-map-marker-alt"></i> Basantpur, Odisha
+            </div>
+            <p class="project-description">
+              Volunteered for a community skilling initiative, delivering 25 hours of basic programming and computer software training. Designed and led sessions, adapting content to diverse skill levels. Helped improve digital literacy and participants' confidence. Recognized for dedication, adaptability, and clear communication supporting local community tech growth.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">Technical Training</span>
+              <span class="tech-badge">Leadership</span>
+              <span class="tech-badge">Communication</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- WealthWise -->
+        <article class="project-card" data-aos="fade-up">
+          <div class="project-image-header">
+            <img src="./assets/images/wealthwise-dashboard.png" alt="WealthWise Dashboard Screenshot">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/niharrr72/WealthWise-Smart-Expense-Income-Management-System" target="_blank" class="project-link" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <div class="project-titles">
+                <h3 class="project-title">WealthWise</h3>
+                <p class="project-subtitle">Smart Expense & Income Tracker</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-description">
+              A full-stack expense and income management system with a stunning glassmorphism UI.
+              Features AI-powered spending insights, multi-currency support, CSV export, and a real-time monthly balance dashboard.
+            </p>
+          <div class="project-features">
+            <span>📊 AI Spending Tips</span>
+            <span>💱 Multi-Currency</span>
+            <span>📤 CSV Export</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Vite</span>
+          </div>
+          <a href="https://github.com/niharrr72/WealthWise-Smart-Expense-Income-Management-System" target="_blank" class="project-cta">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+          </div>
+        </article>
+
+        <!-- Health Ease -->
+        <article class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-header">
+            <div class="project-featured-badge">⭐ Featured</div>
+            <img src="./assets/images/healthease-dashboard.png" alt="Health Ease Dashboard Screenshot">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/niharrr72/Health-Ease" target="_blank" class="project-link" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <div class="project-titles">
+                <h3 class="project-title">Health Ease</h3>
+                <p class="project-subtitle">Healthcare Management System</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-description">
+              A comprehensive full-stack healthcare platform connecting patients with doctors. Includes
+              appointment booking, medical history tracking, doctor schedules, prescription management, and a full admin panel.
+            </p>
+          <div class="project-features">
+            <span>👤 Patient Portal</span>
+            <span>🩺 Doctor Portal</span>
+            <span>⚙️ Admin Panel</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">JWT</span>
+            <span class="tech-badge">Cloudinary</span>
+          </div>
+          <a href="https://github.com/niharrr72/Health-Ease" target="_blank" class="project-cta">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+          </div>
+        </article>
+
+        <!-- Anime Tracker -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-header">
+            <img src="./assets/images/animetracker-dashboard.png" alt="Anime Tracker Dashboard Screenshot">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/niharrr72/Anime-Tracker" target="_blank" class="project-link" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://niharrr72.github.io/Anime-Tracker/" target="_blank" class="project-link" aria-label="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+              <div class="project-titles">
+                <h3 class="project-title">Anime Daily Tracker</h3>
+                <p class="project-subtitle">Serverless Automation Engine</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-description">
+              A lightning-fast, serverless anime tracker with glassmorphism UI automated by GitHub Actions.
+              Fetches and pre-computes precise IST episode drop times twice daily — zero API calls at runtime for O(1) load times.
+            </p>
+          <div class="project-features">
+            <span>🤖 GitHub Actions CI</span>
+            <span>⏰ IST Precision</span>
+            <span>🪟 Glassmorphism UI</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge">Vanilla JS</span>
+            <span class="tech-badge">Vanilla CSS</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">GitHub Actions</span>
+          </div>
+          <a href="https://github.com/niharrr72/Anime-Tracker" target="_blank" class="project-cta">
+            View Project <i class="fas fa-arrow-right"></i>
+          </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projects-footer">
+        <a href="https://github.com/niharrr72" target="_blank" class="btn btn-outline">
+          <i class="fab fa-github"></i> See All Projects on GitHub
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a project in mind, a collaboration idea, or just want to say hi? My inbox is always open.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:niharroutray72@gmail.com">niharroutray72@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-linkedin-in"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/nihar-routray-6b9b72337" target="_blank">Nihar Routray</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-github"></i>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/niharrr72" target="_blank">@niharrr72</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-university"></i>
+            <div>
+              <h4>University</h4>
+              <span>SRMIST, Chennai</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <input type="hidden" name="access_key" value="48b71854-a3b6-4e8d-91ca-3491d238d044">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+            <span class="btn-text">Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#home" class="footer-logo">NR<span class="dot">.</span></a>
+        <p class="footer-text">Designed & built with ❤️ by <strong>Nihar Ranjan Routray</strong></p>
+        <div class="footer-socials">
+          <a href="https://github.com/niharrr72" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nihar-routray-6b9b72337" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:niharroutray72@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p class="footer-copyright">© 2025 Nihar Ranjan Routray. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
