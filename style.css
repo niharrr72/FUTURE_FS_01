@@ -779,13 +779,6 @@ body {
 .certification-card {
   width: 100%;
 }
-.certification-card .project-cover {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 40px;
-}
-.certification-card .project-cover img {
-  object-fit: contain;
-}
 .cert-link-wrapper:hover .project-card {
   transform: translateY(-8px);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4), 0 0 24px rgba(0, 245, 212, 0.2);
