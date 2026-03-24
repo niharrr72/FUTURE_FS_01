@@ -316,7 +316,7 @@ rippleTargets.forEach(target => {
     // Spawn ripples continuously while hovering
     rippleInterval = setInterval(() => {
       if(bgContainer) createHoverRipple(target);
-    }, 800); 
+    }, 1000); 
   });
   
   target.addEventListener('mouseleave', () => {
@@ -336,8 +336,8 @@ function createHoverRipple(target) {
   ripple.style.left = `${viewportX}px`;
   ripple.style.top = `${viewportY}px`;
   
-  // Consistent duration for smooth concentric ripples
-  const duration = 5.0; 
+  // 1 ripple takes 1 whole second to travel to the edges
+  const duration = 1.0; 
   ripple.style.animationDuration = `${duration}s`;
   
   bgContainer.appendChild(ripple);
