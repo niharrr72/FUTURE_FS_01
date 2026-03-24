@@ -336,8 +336,8 @@ function createHoverRipple(target) {
   ripple.style.left = `${viewportX}px`;
   ripple.style.top = `${viewportY}px`;
   
-  // 1 ripple takes 1 whole second to travel to the edges
-  const duration = 1.0; 
+  // Slower flowing ripples (like before) but spaced 1 second apart
+  const duration = 8.0; 
   ripple.style.animationDuration = `${duration}s`;
   
   bgContainer.appendChild(ripple);
