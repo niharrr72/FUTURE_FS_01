@@ -1,3 +1,7 @@
+## Live Demo
+
+Try out the live portfolio here: [Nihar Ranjan Routray Portfolio](https://niharrr72.github.io/FUTURE_FS_01/)
+
 # Nihar Ranjan Routray | Professional Portfolio
 
 ![Portfolio Preview](./assets/images/hero-preview.png)
